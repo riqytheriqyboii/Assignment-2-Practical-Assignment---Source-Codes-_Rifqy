@@ -14,11 +14,11 @@ public class PlayerMovement : MonoBehaviour
     public bool mFollowCameraForward = false;
     public float mTurnRate = 10.0f;
 
-    public AudioSource footstepAudioSource; // AudioSource for footstep sounds
-    public AudioClip[] footstepSounds; // Array of footstep sounds
-    public float stepRate = 0.5f; // Time between steps
-    private float nextStepTime = 0.0f; // Next time to play a step sound
-    private bool isMoving = false; // Flag to check if the player is moving
+    //public AudioSource footstepAudioSource; // AudioSource for footstep sounds
+    //public AudioClip[] footstepSounds; // Array of footstep sounds
+    //public float stepRate = 0.5f; // Time between steps
+    //private float nextStepTime = 0.0f; // Next time to play a step sound
+   // private bool isMoving = false; // Flag to check if the player is moving
 
 #if UNITY_ANDROID
     public FixedJoystick mJoystick;
@@ -86,13 +86,13 @@ public class PlayerMovement : MonoBehaviour
         }
         
         // Determine if the player is moving
-isMoving = (hInput != 0 || vInput != 0);
+//isMoving = (hInput != 0 || vInput != 0);
 
         // Play footstep sounds when moving
-        if (isMoving && Time.time >= nextStepTime)
+       // if (isMoving && Time.time >= nextStepTime)
         {
-            PlayFootstepSound();
-            nextStepTime = Time.time + stepRate;
+           // PlayFootstepSound();
+           // nextStepTime = Time.time + stepRate;
         }
     }
 
@@ -162,10 +162,10 @@ isMoving = (hInput != 0 || vInput != 0);
             mVelocity.y = 0f;
     }
 
-    private void PlayFootstepSound()
-    {
-        //Choose a random footstep sound from the array
-        AudioClip clip = footstepSounds[Random.Range(0, footstepSounds.Length)];
-        footstepAudioSource.PlayOneShot(clip);
-    }
+    //private void PlayFootstepSound()
+   // {
+       // //Choose a random footstep sound from the array
+        //AudioClip clip = footstepSounds[Random.Range(0, footstepSounds.Length)];
+       // footstepAudioSource.PlayOneShot(clip);
+   // }
 }
