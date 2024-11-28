@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\untitty projs\\Assignment1_UnityProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|d:\\untitty projs\\assignment1_unityproject\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|D:\\untitty projs\\Assignment1_UnityProject\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|d:\\untitty projs\\assignment1_unityproject\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|D:\\untitty projs\\Assignment1_UnityProject\\assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|D:\\untitty projs\\Assignment1_UnityProject\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ThirdPersonCamera.cs",
+              "DocumentMoniker": "D:\\untitty projs\\Assignment1_UnityProject\\Assets\\Scripts\\ThirdPersonCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ThirdPersonCamera.cs",
+              "ToolTip": "D:\\untitty projs\\Assignment1_UnityProject\\Assets\\Scripts\\ThirdPersonCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ThirdPersonCamera.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAASwGYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:20:19.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\untitty projs\\Assignment1_UnityProject\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
@@ -34,33 +46,20 @@
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAMwEkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T14:35:44.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T14:35:44.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\untitty projs\\Assignment1_UnityProject\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "D:\\untitty projs\\Assignment1_UnityProject\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAnwFgAAAACAAAA",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAAAUBAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T01:25:11.509Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThirdPersonCamera.cs",
-              "DocumentMoniker": "D:\\untitty projs\\Assignment1_UnityProject\\Assets\\Scripts\\ThirdPersonCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ThirdPersonCamera.cs",
-              "ToolTip": "D:\\untitty projs\\Assignment1_UnityProject\\Assets\\Scripts\\ThirdPersonCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ThirdPersonCamera.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAkwF4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T06:37:26.456Z"
             }
           ]
         }
